@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '10 17 * * *'
+    timezone: "Asia/Shanghai"
 permissions:
   contents: read
   actions: write
